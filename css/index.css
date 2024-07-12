@@ -1,0 +1,68 @@
+:root {
+  /* Primary Color */
+  --neon-green: hsl(75, 94%, 57%);
+
+  /* Neutral Colors */
+  --black: hsl(0, 0%, 8%);
+  --dark-grey: hsl(0, 0%, 12%);
+  --grey: hsl(0, 0%, 20%);
+  --white: hsl(0, 0%, 100%);
+
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  width: 384px;
+  background-color: var(--dark-grey);
+  border-radius: 10px;
+}
+
+.profile-pic {
+  width: 88px;
+  margin: 40px auto 24px auto;
+  border-radius: 50px;
+}
+
+.name-location {
+  text-align: center;
+
+  .name {
+    font-size: 24px;
+  }
+
+  .location {
+    color: var(--neon-green);
+    font-weight: bold;
+  }
+}
+
+.bio {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.links {
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+.link {
+  background-color: var(--grey);
+  width: 304px;
+  margin: auto;
+  text-align: center;
+  padding: 10px 0px;
+  border-radius: 5px;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
